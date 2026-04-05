@@ -152,6 +152,9 @@ def product(l : list):
         prod*=el
     return prod
 
+def str_reverse(s : str):
+    return "".join(s[::-1])
+
 # grid functions
 
 def diag_surroundings(en : list | tuple, lines : list):
